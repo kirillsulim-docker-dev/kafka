@@ -10,3 +10,5 @@ services:
       - zookeeper
     ports:
       - "9092:9092"
+    volumes:
+      - ./kafka-logs:/tmp/kafka-logs
